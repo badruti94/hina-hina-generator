@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Hina - hina Generator</title>
+</head>
+
+<body>
+    <header>
+        Hina - hina Generator
+    </header>
+    <main>
+        <section id="form">
+            <form action="">
+                <table>
+                    <tr>
+                        <td><label for="nama">Nama</label></td>
+                        <td> : <input type="text" id="nama" placeholder="cth: Vtube"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nama-fans">Nama Fans</label></td>
+                        <td> : <input type="text" id="nama-fans" placeholder="cth: Vtuber"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="status">Status</label></td>
+                        <td> : <input type="text" id="status" placeholder="cth: Penyelamat Ekonomi Bangsa"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="kekurangan">Kekurangan Hater</label></td>
+                        <td> : <input type="text" id="kekurangan" placeholder="cth: Ijazah"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="kelebihan">Kelebihan</label></td>
+                        <td> : <textarea name="" id="kelebihan" cols="20" rows="4" placeholder="cth: menggaji puluhan juta perbulan, bikin orang miskin jadi mendadak kaya, bikin bisa beli rumah dalam sebulan"></textarea> </td>
+                    </tr>
+                </table>
+                <button id="generate-btn">Generate</button>
+            </form>
+        </section>
+        <section id="result-section">
+            <div id="result">
+                <textarea name="" id="text" cols="30" rows="10"></textarea><br>
+                <button id="copy-btn">copy</button>
+                <div id="copy-alert"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        fb: Alice Violet Haxor
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
